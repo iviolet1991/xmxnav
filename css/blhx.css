@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body{
+	width: 100%;
+	min-height: 100%;
+	height: auto;
+	margin: 0 !important;
+}
+.option{
+	width: 1000px;
+	height: 300px;
+}
+.inputArea{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#ss{
+	width: 100px;
+	height: 22px;
+}
+.selectArea{
+	margin-top: 20px;
+	padding-left: 20px;
+}
+#name{
+	width: 150px;
+}
+.buttonArea{
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.chart{
+	width: 80%;
+	min-height: 500px;
+	margin: 0 auto;
+}
