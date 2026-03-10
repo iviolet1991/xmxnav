@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/blhx.css">
+</head>
+<body>
+	<div class="option">
+		<div class="inputArea">
+			<span>装填</span><input class="input" id="zt" type="text" value="182">
+			<span>科技装填</span><input class="input" id="kjzt" type="text" value="17">
+			<span>技能装填</span><input class="input" id="jnzt" type="text" value="10">
+			<span>装备射速</span>
+			<select id="ss">
+				<option value="20.65">457</option>
+				<option value="24.02">香槟炮</option>
+				<option value="24.02">mk6</option>
+				<option value="24.22">mk7</option>
+				<option value="19.42">大帝炮</option>
+				<option value="23.94">菠萝炮</option>
+				<option value="30.59">彩460</option>
+				<option value="24.14">三连410出云炮</option>
+				<option value="30.06">mk6改</option>
+				<option value="24.28">拉斐尔炮406半穿甲彩炮</option>
+				<option value="25.47">四连磁</option>
+				<option value="22.21">三连紫磁</option>
+				<option value="19.42">二连蓝雷</option>
+			</select>
+			<!-- <p style="margin-top: 20px;">（常见装备装填速度，457 : 20.65s，香槟炮：24.02s，）</p> -->
+			<div style="padding-top: 20px;">
+				<span>装备金火控</span>
+				<input class="jhk" type="radio" name="jhk" value="yes"><span>是</span>
+				<input class="jhk" type="radio" name="jhk" value="no" checked="checked"><span>否</span>
+			</div>
+		</div>
+		<div class="selectArea">
+			<span>选择轴</span>
+			<select id="name">
+				<option value="hm0">海妈16s轴</option>
+				<option value="hm1">海妈20s轴</option>
+				<option value="hm2">黑海妈</option>
+				<option value="huayuan" data-zt='182' data-jnzt="10">花园</option>
+				<option value="huteng1" data-zt='190' data-jnzt="15">胡腾旗舰</option>
+				<option value="huteng2" data-zt='190' data-jnzt="15">胡腾僚舰</option>
+				<option value="dadi" data-zt='168' data-jnzt="0">大帝</option>
+				<option value="qianwei" data-zt='189' data-jnzt="20">前卫</option>
+				<option value="wuzang" data-zt='165' data-jnzt="10">武藏</option>
+				<option value="bosimao" data-zt='180' data-jnzt="15">波斯猫z</option>
+				<option value="qiershazhi" data-zt='164' data-jnzt="0">奇尔沙治</option>
+				<option value="sumengmeng" data-zt='175' data-jnzt="10">苏萌萌</option>
+				<option value="aersasi" data-zt='187' data-jnzt="0">阿尔萨斯</option>
+				<option value="lafeier" data-zt='181' data-jnzt="0">拉斐尔</option>
+				<option value="shahei" data-zt='153' data-jnzt="8">傻黑</option>
+				<option value="yueke" data-zt='155' data-jnzt="0">二哥</option>
+				<option value="other" data-zt='0' data-jnzt="0">其她</option>
+			</select>
+			<br><br>
+			<span>舰娘名：</span><input class="input" id="lp" type="text" value="">
+		</div>
+		<div class="buttonArea">
+			<button id="creat">生成轴</button>
+			<button id="clear">清空</button>
+		</div>
+	</div>
+	<div class="chart" id="chart"></div>
+</body>
+<script src="js/echarts.js"></script>
+<script src='js/jQuery.js'></script>
+<script src="js/blhx.js"></script>
+</html>
