@@ -124,7 +124,7 @@ const navdata = [
 			},
 			{
 				name:"github",
-				url:"github.com"
+				url:"https://www.github.com"
 			}
 		]
 	},
