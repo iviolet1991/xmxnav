@@ -205,6 +205,18 @@ const navdata = [
 				url:"https://3d.hunyuan.tencent.com/"
 			},
 			{
+				name:"小云雀AI",
+				url:"https://xyq.jianying.com/home?tab_name=home"
+			},
+			{
+				name:"智普",
+				url:"https://www.zhipuai.cn/zh"
+			},
+			{
+				name:"vidu",
+				url:"https://www.vidu.cn/home/recommend"
+			},
+			{
 				name:"sora2国内",
 				url:"https://sora2.mineai.app/"
 			},
