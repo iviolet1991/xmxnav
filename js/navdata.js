@@ -297,6 +297,10 @@ const navdata = [
 			{
 				name:"BLHX",
 				url:"../blhx/blhx.html"
+			},
+			{
+				name:"azur-link",
+				url:"https://iviolet1991.github.io/azur-link/"
 			}
 		]	
 	},
